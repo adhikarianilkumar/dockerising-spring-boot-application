@@ -2,6 +2,7 @@ version: '3.1'
 services:
   API:
     image: 'blog-api-docker.jar'
+    build: ./
     ports:
       - "8080:8080"
     depends_on:
